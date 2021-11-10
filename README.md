@@ -5,7 +5,7 @@ open the IslamicInheritance file then copy the path of the InheritanceExpertSyst
 open the swi prolog app -> type ['path of step above']. then click enter
 then type distribute. which will distribute the content of the existing family tree file.
 
-Description number Star
+Description number Star:
 If you want to modify the family tree file just open familytree.pl file and modify them according to the video we made.
 just don't delete any fact and keep at least one fact of each family member
 type none in the second argument of each fact you want to ignore or is not part of deceased's family member
