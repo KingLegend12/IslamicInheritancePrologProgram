@@ -1,3 +1,14 @@
+/*Group Members: Driss Jaidi and Mohammed Chaouni
+  Submission Date: 10 November 2021
+  Version: 15.0
+  In this program we have many functions.
+  A big chunk of these function constitues the knowledge bases 1 and 2
+  another set of functions constitutes the inference engine
+  then we have the two function that run knowledge base 1 and 2 respectivelly table1Distribution(R) and table2Distribution(R):-
+  the we have the "distribute" that runs them both
+  We also have count functions that count all family members they start with "count"
+*/
+
 :- ensure_loaded(familytree).         /* Very important to the program*/
 :- ensure_loaded(countingFunctions). /* Very important to the program*/
 
