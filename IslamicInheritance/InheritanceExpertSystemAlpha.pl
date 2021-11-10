@@ -7,6 +7,8 @@
   then we have the two function that run knowledge base 1 and 2 respectivelly table1Distribution(R) and table2Distribution(R):-
   the we have the "distribute" that runs them both
   We also have count functions that count all family members they start with "count"
+  each function is in human readable form and is easy to understand just by its name
+  Read the read me file if you want to see how to run the online and desktop version or just watch the video we posted in the word doc
 */
 
 :- ensure_loaded(familytree).         /* Very important to the program*/
@@ -226,7 +228,9 @@ findall((X,Y ,1/6+ "or rest divided with other son sons if less than the share")
 ;
 true
 )
-.
+. 
+
+
 oneOrManySonSonAndOneOrManySonDaughters:-
 countNumberOfSonSons(N), countNumberOfSonDaughters(D),countNumberOfDaughters(DD), N==1, D==1, DD==0 ->
 sharesTwoTimesNtoOneTimesNDistributer(1/2, M, F, N, D),
